@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&family=Source+Sans+Pro:ital,wght@0,200;0,600;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Source Sans Pro;  
+
+}
+
+.right{
+    display: flex;
+    width: 50vw;
+    height: 100vh;   
+    vertical-align: middle;
+    justify-content: center;
+    padding: 0px 30px;
+    background-color: black; 
+    overflow: hidden;
+}
+
+img{
+   
+    position: absolute;    
+    top: 10%;
+    left: 30%;
+    width: 50%; 
+   
+}
+
+.right > h1 {
+   display: block;
+
+}
+
+.right>h2 {
+    display: block;
+
+}
+
+.left {
+    display: flex;
+    width: 50vw;
+    height: 100vh;
+   flex-direction: column;
+   vertical-align: middle;
+   justify-content: center;
+   padding: 0px 30px;
+   
+}
+
+.left>h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.left>h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+
+.text{
+ margin-top:50vh;
+ margin-left: 50%;
+ z-index:1;
+}
+
+.text > h2{
+ font-weight: 500;
+ color:#fff;
+ font-size: 4rem;
+ text-align: right;
+ 
+}
+
+.text > h1{
+    font-weight: 600;
+    color:#fff;
+    font-size: 8rem;
+}
+
+.wrapper{
+ display: flex;
+ flex-direction: row;
+}
+
